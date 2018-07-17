@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Hackathon</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="name_input">Username</string>
+    <string name="password_input">Password</string>
+    <string name="text_sign_up_1">New to the hackathon?</string>
+    <string name="text_sign_up_2">Sign Up.</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="email_input">Email</string>
+    <string name="confirm_password_input">Confirm password</string>
+    <string name="add_picture">Add picture</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_news">NewsActivity</string>
+    <string name="title_activity_sport">SportActivity</string>
+    <string name="sports">Sports</string>
+    <string name="news">News</string>
+    <string name="news_head_line">News headline</string>
+    <string name="time_name_title">Input team name</string>
+    <string name="title_activity_photos">PhotosActivity</string>
+    <string name="photos">Photos</string>
+    <string name="tasks">Tasks</string>
+    <string name="team_input">Input team name</string>
+    <string name="dlg_loading">Loading...</string>
+    <string name="dlg_choose_image_from">Choose image from...</string>
+    <string name="task_input">Task</string>
+    <string name="edit1_text">EditText Widget</string>
+    <string name="edit2_text">Disabled EditText Widget</string>
+    <color name="blue">#0099cc</color>
+</resources>

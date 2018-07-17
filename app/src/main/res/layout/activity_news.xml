@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.javabobo.projectdemo.ui.Activitys.NewsActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/ctn_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ctn_toolbar"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/news"
+        android:textColor="@android:color/white"
+        android:textSize="32dp" />
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/ctn_toolbar"
+        android:layout_toRightOf="@+id/main_title"
+        android:id="@+id/new_image"
+        android:layout_marginRight="16dp"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+         />
+    <TextView
+        android:id="@+id/headline_news"
+        android:layout_marginTop="32dp"
+        android:textSize="32dp"
+        android:textColor="@android:color/white"
+        android:text="@string/news_head_line"
+        android:layout_below="@+id/new_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/content_new"
+        android:layout_marginTop="32dp"
+        android:text="The news in london blablabalabalabla kfsjldfsdhfkjdfhkjsdhfsjdfkjsdhfjshdfkjshdfkjhskjdfhskdjfhkjsdhfkjsdhfkjshdfkjsdhf"
+        android:layout_below="@+id/headline_news"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/main_title" />
+</RelativeLayout>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Activitys.HomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/image_user"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginRight="8dp" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/containerInput"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/containerInput"
+                android:layout_marginLeft="82dp"
+                android:layout_marginStart="82dp"
+                android:layout_marginTop="11dp"
+                android:text="Good day"
+                android:textColor="@android:color/white"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/name_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/title"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@+id/title"
+                android:text="Luis"
+                android:textColor="@android:color/white"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+
+            <RelativeLayout
+                android:id="@+id/containerInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:id="@+id/container_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="75dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/container">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="2dp"
+                            android:text="Weather"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="18dp"
+                            android:src="@drawable/clouds_icon" />
+
+                        <TextView
+                            android:id="@+id/num_degress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginTop="18dp"
+                            android:text="12"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/num_degress"
+                            android:layout_alignStart="@+id/num_degress"
+
+                            android:layout_below="@+id/num_degress"
+                            android:text="degress"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="8dp" />
+
+                        <TextView
+                            android:id="@+id/city"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="8dp"
+                            android:text="London"
+                            android:textColor="@android:color/black" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+
+                        android:id="@+id/news"
+                        android:layout_width="100dp"
+                        android:layout_height="75dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/container">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="2dp"
+                            android:text="News"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+
+                        <TextView
+                            android:id="@+id/header_news"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:text="News headline"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:id="@+id/new_content"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/header_news"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="4dp"
+                            android:ellipsize="end"
+                            android:maxLines="3"
+                            android:padding="1dp"
+                            android:text="Blabladdddddddddddddddddddddblabddddddddddddddddddddddddddddddddddddddala"
+                            android:textColor="@android:color/black"
+                            android:textSize="8dp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/sports"
+                        android:layout_width="100dp"
+                        android:layout_height="75dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/container">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="2dp"
+                            android:text="Sports"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+
+                        <TextView
+                            android:id="@+id/header_sports"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="24dp"
+                            android:text="Sport headline"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:id="@+id/sport_content"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/header_sports"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="4dp"
+                            android:ellipsize="end"
+                            android:maxLines="3"
+                            android:padding="1dp"
+                            android:text="A team did very well at something, They scored 3 goals "
+                            android:textColor="@android:color/black"
+                            android:textSize="8dp" />
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/container_1"
+
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/photos"
+                        android:layout_width="100dp"
+                        android:layout_height="75dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/container">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="2dp"
+                            android:text="Photos"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                        <ImageView
+                            android:id="@+id/image_preview"
+                            android:layout_width="80dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="20dp" />
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/tasks"
+                        android:layout_width="100dp"
+                        android:layout_height="75dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/container">
+
+                        <TextView
+                            android:id="@+id/title_task"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="2dp"
+                            android:text="Tasks"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+                        <ImageView
+                            android:layout_width="98dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/task_details"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="18dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="75dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/container">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="2dp"
+                            android:text="Clothes"
+                            android:textColor="@android:color/black"
+                            android:textSize="10dp" />
+
+
+                        <com.genyus.pacpiechart.library.Pacpie xmlns:pacpie="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/pacpieChart"
+
+                            android:layout_width="80dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="20dp"
+                            pacpie:activate_rotation="true"
+                            pacpie:lineAntiAlias="true"
+                            pacpie:lineDefaultColor="@color/default_line_color"
+                            pacpie:lineStrokeWidth="3.0"
+                            pacpie:sliceAntiAlias="true"
+                            pacpie:sliceDefaultColor="@color/default_slice_color"
+                            pacpie:sliceStrokeWidth="0.0" />
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dlg_image_pick">
+        <item>@string/gale</item>
+        <item>@string/camera</item>
+    </string-array>
+
+    <string name="gale">Galery</string>
+    <string name="camera">Camera</string>
+</resources>
