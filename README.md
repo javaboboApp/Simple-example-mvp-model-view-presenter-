@@ -5,5 +5,6 @@ In that example we will show  how to implement a simple app in android using it 
 
 
 
-
-![Alt text](http://www.javabobo.com/wp-content/uploads/2018/07/Captura-de-pantalla-de-2018-08-22-181251-1-300x166.png?raw=true "Example MVP")
+<p align="center">
+  <img width="460" height="300" src="http://www.javabobo.com/wp-content/uploads/2018/07/Captura-de-pantalla-de-2018-08-22-181251-1-300x166.png?raw=true "Example MVP"">
+</p>
