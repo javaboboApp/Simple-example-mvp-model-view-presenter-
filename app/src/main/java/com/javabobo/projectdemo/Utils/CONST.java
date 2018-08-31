@@ -6,7 +6,7 @@ package com.javabobo.projectdemo.Utils;
 
 public class CONST {
     public static String URL_GET_USER = "[URL_WEBSERVICE]/request/get_user.php";
-    public static String URL_INSERT_USER = "[URL_WEBSERVICE]http://byebox.es/hackathon/insert/insert_user.php";
+    public static String URL_INSERT_USER = "[URL_WEBSERVICE]/insert/insert_user.php";
     public static String URL_INSERT_TASK = "[URL_WEBSERVICE]/insert/insert_task.php";
     public static String URL_UPDATE_TASK = "[URL_WEBSERVICE]/update/update_task.php";
     public static  String URL_IMG = "[URL_WEBSERVICE]/content/";
