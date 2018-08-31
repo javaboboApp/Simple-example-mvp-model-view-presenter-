@@ -5,10 +5,10 @@ package com.javabobo.projectdemo.Utils;
  */
 
 public class CONST {
-    public static String URL_GET_USER = "http://byebox.es/hackathon/request/get_user.php";
-    public static String URL_INSERT_USER = "http://byebox.es/hackathon/insert/insert_user.php";
-    public static String URL_INSERT_TASK = "http://byebox.es/hackathon/insert/insert_task.php";
-    public static String URL_UPDATE_TASK = "http://byebox.es/hackathon/update/update_task.php";
+    public static String URL_GET_USER = "[URL_WEBSERVICE]/request/get_user.php";
+    public static String URL_INSERT_USER = "[URL_WEBSERVICE]http://byebox.es/hackathon/insert/insert_user.php";
+    public static String URL_INSERT_TASK = "[URL_WEBSERVICE]/insert/insert_task.php";
+    public static String URL_UPDATE_TASK = "[URL_WEBSERVICE]/update/update_task.php";
     public static  String URL_IMG = "[URL_WEBSERVICE]/content/";
     public static String URL_GET_IMG_GALERY = "[URL_WEBSERVICE]/request/get_all_pictures.php";
     public static String URL_REMOVE_IMG_GALERY = "[URL_WEBSERVICE]/remove/remove_image.php";
