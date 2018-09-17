@@ -24,6 +24,6 @@ This app has a different modules.
 
 The webservice will be implemented for us using php like languaje:
 
-Link in the play store [a link](https://play.google.com/store/apps/details?id=com.javabobo.projectdemo)
+[Link in the play store](https://play.google.com/store/apps/details?id=com.javabobo.projectdemo)
 
 
